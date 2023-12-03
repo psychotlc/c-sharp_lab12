@@ -1,0 +1,33 @@
+@page
+@model Lab12.Pages.Records.DetailsRecord
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+@{
+    ViewData["Title"] = "Record";
+}
+
+@{  var record = Model.Record;
+    var doctorName = Model.DoctorName;
+    var pacientName = Model.PacientName;
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>@record.Title</h1>
+    </div>
+    <div class="card-body text-center">
+        <h4 class="cardTextLeftFloating">ID: @record.ID</h4><hr/>
+        <h4 class="cardTextLeftFloating">Doctor: @doctorName</h4><hr/>
+        <h4 class="cardTextLeftFloating">Pacient: @pacientName</h4><hr/>
+    </div>
+</div>
+
+<div>
+    <a class="btn41-43 btn-43" asp-area="" asp-page="./Index">Back to all records</a>
+    <a class="btn41-43 btn-43" asp-page="./Edit" asp-route-id="@record.ID">Edit</a>
+    <a class="btn41-43 btn-43" asp-page="./Delete" asp-route-id="@record.ID">Delete</a>
+</div>

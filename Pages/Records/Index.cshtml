@@ -1,0 +1,41 @@
+@page
+@using Lab12.Pages
+@model Lab12.Pages.Records.IndexRecord
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+@{
+    ViewData["Title"] = "Records";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var record in Model.Records)
+    {
+        <tr>
+            <td>
+                <a class="btn-primary" asp-page="./Details" asp-route-id="@record.ID">@record.Title</a>
+            </td>
+            <td>
+                <a class="btn-primary" asp-page="./Edit" asp-route-id="@record.ID">Edit</a> |
+                <a class="btn-primary" asp-page="./Delete" asp-route-id="@record.ID">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div>
+    <a class="btn41-43 btn-43" asp-area="" asp-page="./Create">Create new</a>
+    <a class="btn41-43 btn-43" asp-page="../Doctors/Index">Doctors</a>
+    <a class="btn41-43 btn-43" asp-page="../Pacients/Index">Pacients</a>
+</div>

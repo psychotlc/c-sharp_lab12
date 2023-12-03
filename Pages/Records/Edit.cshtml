@@ -1,0 +1,43 @@
+@page "{id}"
+@model Lab12.Pages.Records.EditRecord
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+<form method="post">
+    <div class="card">
+        <div class="card-header">
+            <h1>Edit record data</h1>
+        </div>
+        <div class="card-body">
+            <div class="passEditRowName">
+                <label asp-for="Record.Title">Edit title: </label>
+                <input asp-for="Record.Title" placeholder="@Model.Record.Title"/>
+            </div>
+            <div class="passEditRowDoctor">
+                <label asp-for="Record.DoctorID">Edit doctor: </label>
+                <select asp-for="Record.DoctorID" class="custom-select mr-2">
+                    @foreach (var author in Model.Doctors)
+                    {
+                        <option value="@author.ID">@author.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="passEditRowPacient">
+                <label asp-for="Record.PacientID">Edit pacient: </label>
+                <select asp-for="Record.PacientID" class="custom-select mr-2">
+                    @foreach (var pacient in Model.Pacients)
+                    {
+                        <option value="@pacient.ID">@pacient.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="btn41-43 btn-43" type="submit">Update</button>
+        <a class="btn41-43 btn-43" asp-page="/Index">Cancel</a>
+    </div>
+</form>

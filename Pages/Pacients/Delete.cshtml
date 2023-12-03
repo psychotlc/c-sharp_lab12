@@ -1,0 +1,13 @@
+@page
+@model Lab12.Pages.Pacients.DeletePacient
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>Delete pacient @Model.Pacient.Name</h1>
+<form method="post">
+    <button class="btn41-43 btn-43" type="submit">Yes</button>
+    <a class="btn41-43 btn-43" asp-page="./Index">No</a>
+</form>

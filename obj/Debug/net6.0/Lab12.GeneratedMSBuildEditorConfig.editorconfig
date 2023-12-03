@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lab12
+build_property.RootNamespace = Lab12
+build_property.ProjectDir = /home/narek/Documents/C#/lab12/CSharp_Lab12/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/narek/Documents/C#/lab12/CSharp_Lab12
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Doctors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Doctors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Doctors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Doctors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRG9jdG9ycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Pacients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjaWVudHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Pacients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjaWVudHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Pacients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjaWVudHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Pacients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFjaWVudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Records/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjb3Jkcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Records/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjb3Jkcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Records/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjb3Jkcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Records/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjb3Jkcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/Records/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjb3Jkcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/narek/Documents/C\#/lab12/CSharp_Lab12/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-i2nz3oen1p

@@ -1,0 +1,34 @@
+@page
+@model Lab12.Pages.Pacients.IndexPacient
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+@{
+    ViewData["Title"] = "Pacients";
+}
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Pacient Name</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var pacient in Model.Pacients)
+    {
+        <tr>
+            <td>@pacient.Name</td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@pacient.ID">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@pacient.ID">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a class="btn41-43 btn-43" asp-page="./Create">Create New</a>
+<a class="btn41-43 btn-43" asp-page="../Records/Index">Back to Records</a>

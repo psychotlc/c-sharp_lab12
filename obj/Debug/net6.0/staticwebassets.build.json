@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "dQEciqhRZ/zCheIzS0K+1QGait3HkCgWGxHSmEnPRWI=",
+  "Source": "Lab12",
+  "BasePath": "_content/Lab12",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab12/wwwroot",
+      "Source": "Lab12",
+      "ContentRoot": "/home/narek/Documents/C#/lab12/CSharp_Lab12/wwwroot/",
+      "BasePath": "_content/Lab12",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/narek/Documents/C#/lab12/CSharp_Lab12/obj/Debug/net6.0/scopedcss/bundle/Lab12.styles.css",
+      "SourceId": "Lab12",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/narek/Documents/C#/lab12/CSharp_Lab12/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/Lab12",
+      "RelativePath": "Lab12.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/narek/Documents/C#/lab12/CSharp_Lab12/obj/Debug/net6.0/scopedcss/bundle/Lab12.styles.css"
+    },
+    {
+      "Identity": "/home/narek/Documents/C#/lab12/CSharp_Lab12/obj/Debug/net6.0/scopedcss/projectbundle/Lab12.bundle.scp.css",
+      "SourceId": "Lab12",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/narek/Documents/C#/lab12/CSharp_Lab12/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Lab12",
+      "RelativePath": "Lab12.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/narek/Documents/C#/lab12/CSharp_Lab12/obj/Debug/net6.0/scopedcss/projectbundle/Lab12.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/narek/Documents/C#/lab12/CSharp_Lab12/wwwroot/css/site.css",
+      "SourceId": "Lab12",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/narek/Documents/C#/lab12/CSharp_Lab12/wwwroot/",
+      "BasePath": "_content/Lab12",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/narek/Documents/C#/lab12/CSharp_Lab12/wwwroot/js/site.js",
+      "SourceId": "Lab12",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/narek/Documents/C#/lab12/CSharp_Lab12/wwwroot/",
+      "BasePath": "_content/Lab12",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}
